@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:DitHostSDK"
+      name = "DitHostSDK">
+      <Group
+         location = "group:Tests"
+         name = "Tests">
+         <Group
+            location = "group:DitHostSDKTests"
+            name = "DitHostSDKTests">
+            <FileRef
+               location = "group:DitHostSDKTests.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Package.swift">
+      </FileRef>
+      <Group
+         location = "group:Sources"
+         name = "Sources">
+         <Group
+            location = "group:DitHostSDK-AWSProvider"
+            name = "DitHostSDK-AWSProvider">
+            <FileRef
+               location = "group:AWSProvider.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:DitHostSDK"
+            name = "DitHostSDK">
+            <Group
+               location = "group:InstanceConfigs"
+               name = "InstanceConfigs">
+               <FileRef
+                  location = "group:ComposeConfigMapper.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Controllers"
+               name = "Controllers">
+               <FileRef
+                  location = "group:AppController.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Models"
+               name = "Models">
+               <FileRef
+                  location = "group:InstanceConfig.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:InstanceInfo.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CloudConfig.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ComposeConfig.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Protocols"
+               name = "Protocols">
+               <FileRef
+                  location = "group:ConfigMapper.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AppDB.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Provider.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:DitHostSDKExampleApp/DitHostSDKExampleApp.xcodeproj">
+   </FileRef>
+</Workspace>
